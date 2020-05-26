@@ -1,0 +1,16 @@
+{
+  "name": "CityGuide",
+  "short_name": "CityGuide",
+  "theme_color": "#d36060",
+  "background_color": "#f08e8e",
+  "display": "standalone",
+  "start_url": "index.htm",
+  "icons": [
+    {
+      "src": "/img/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "splash_pages": null
+}

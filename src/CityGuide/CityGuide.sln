@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CityGuide.API", "CityGuide.API\CityGuide.API.csproj", "{912E1FF5-1FB9-4BE6-A3D2-DE36F278EF4A}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CityGuide.Static", "CityGuide.Static\", "{0CEC5874-5D4F-49E6-876C-3D1A39FF8A93}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50966"
+		Debug.AspNetCompiler.PhysicalPath = "CityGuide.Static\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50966\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50966"
+		Release.AspNetCompiler.PhysicalPath = "CityGuide.Static\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50966\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50966"
+		SlnRelativePath = "CityGuide.Static\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NoiseFactory", "..\..\..\Course-Material\PWA\NoiseFactory\", "{B54B2AB1-E2F4-4C12-BBC4-7CC764979EEF}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51011"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\Course-Material\PWA\NoiseFactory\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51011\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51011"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\Course-Material\PWA\NoiseFactory\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51011\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51011"
+		SlnRelativePath = "..\..\..\Course-Material\PWA\NoiseFactory\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityGuide.Models", "CityGuide.Models\CityGuide.Models.csproj", "{08A0AE09-F995-4E2C-BB0D-3799529F4BA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{912E1FF5-1FB9-4BE6-A3D2-DE36F278EF4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{912E1FF5-1FB9-4BE6-A3D2-DE36F278EF4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{912E1FF5-1FB9-4BE6-A3D2-DE36F278EF4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{912E1FF5-1FB9-4BE6-A3D2-DE36F278EF4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CEC5874-5D4F-49E6-876C-3D1A39FF8A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CEC5874-5D4F-49E6-876C-3D1A39FF8A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CEC5874-5D4F-49E6-876C-3D1A39FF8A93}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CEC5874-5D4F-49E6-876C-3D1A39FF8A93}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B54B2AB1-E2F4-4C12-BBC4-7CC764979EEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B54B2AB1-E2F4-4C12-BBC4-7CC764979EEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B54B2AB1-E2F4-4C12-BBC4-7CC764979EEF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B54B2AB1-E2F4-4C12-BBC4-7CC764979EEF}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{08A0AE09-F995-4E2C-BB0D-3799529F4BA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A0AE09-F995-4E2C-BB0D-3799529F4BA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A0AE09-F995-4E2C-BB0D-3799529F4BA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A0AE09-F995-4E2C-BB0D-3799529F4BA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EFFACB8-B0F7-4F96-B5B7-2C3745D591C1}
+	EndGlobalSection
+EndGlobal
